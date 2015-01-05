@@ -1,0 +1,15 @@
+#ajax-content {
+  /*opacity: 1;*/
+  -webkit-transform: none;
+  transform: none;
+  transition: all .3s;
+  background-color: black;
+}
+.ajax-loading {
+  cursor: wait;
+}
+.ajax-loading #ajax-content {
+  /*opacity: 0;*/
+  -webkit-transform: translateX(-150%);
+  transform: translateX(-150%);
+}
