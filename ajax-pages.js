@@ -38,8 +38,7 @@ $(function() {
     // if (e.originalEvent.state !== null) {
     //   loadPage(location.href);
     // }
-    console.log(e);
-    loadPage(location.href);
+    loadPage(location.pathname);
   });
 
 });
