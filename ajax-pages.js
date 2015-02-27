@@ -26,7 +26,7 @@ $(function() {
 
   $(document).on("click", "a.ajax-link", function() {
     var href = $(this).attr("href");
-    console.log(location);
+    // console.log(location);
     if (href.indexOf('://') === -1 && href.indexOf('#') === -1 && href !== location.pathname) {
       history.pushState({}, '', href);
       loadPage(href);
